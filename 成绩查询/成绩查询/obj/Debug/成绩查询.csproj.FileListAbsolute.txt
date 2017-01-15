@@ -1,0 +1,16 @@
+D:\实验\成绩查询\成绩查询\bin\Debug\成绩查询.exe.config
+D:\实验\成绩查询\成绩查询\bin\Debug\成绩查询.exe
+D:\实验\成绩查询\成绩查询\bin\Debug\成绩查询.pdb
+D:\实验\成绩查询\成绩查询\obj\Debug\成绩查询.csprojResolveAssemblyReference.cache
+D:\实验\成绩查询\成绩查询\obj\Debug\成绩查询.Properties.Resources.resources
+D:\实验\成绩查询\成绩查询\obj\Debug\成绩查询.csproj.GenerateResource.Cache
+D:\实验\成绩查询\成绩查询\obj\Debug\成绩查询.exe
+D:\实验\成绩查询\成绩查询\obj\Debug\成绩查询.pdb
+D:\实验\成绩查询\成绩查询\obj\Debug\成绩查询.成绩查询系统.resources
+D:\实验\成绩查询\成绩查询\obj\Debug\成绩查询.用户界面.resources
+D:\实验\成绩查询\成绩查询\obj\Debug\成绩查询.管理员界面.resources
+D:\实验\成绩查询\成绩查询\obj\Debug\成绩查询.开课查询.resources
+D:\实验\成绩查询\成绩查询\obj\Debug\成绩查询.成绩查询.resources
+D:\实验\成绩查询\成绩查询\obj\Debug\成绩查询.学生信息管理.resources
+D:\实验\成绩查询\成绩查询\obj\Debug\成绩查询.学生成绩管理.resources
+D:\实验\成绩查询\成绩查询\obj\Debug\成绩查询.帮助.resources
