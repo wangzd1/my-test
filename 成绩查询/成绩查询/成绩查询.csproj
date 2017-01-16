@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B96F0192-D6A2-485C-A83A-F1D4F1E356A2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>成绩查询</RootNamespace>
+    <AssemblyName>成绩查询</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="帮助.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="帮助.Designer.cs">
+      <DependentUpon>帮助.cs</DependentUpon>
+    </Compile>
+    <Compile Include="成绩查询.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="成绩查询.Designer.cs">
+      <DependentUpon>成绩查询.cs</DependentUpon>
+    </Compile>
+    <Compile Include="学生信息管理.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="学生信息管理.Designer.cs">
+      <DependentUpon>学生信息管理.cs</DependentUpon>
+    </Compile>
+    <Compile Include="学生成绩管理.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="学生成绩管理.Designer.cs">
+      <DependentUpon>学生成绩管理.cs</DependentUpon>
+    </Compile>
+    <Compile Include="开课查询.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="开课查询.Designer.cs">
+      <DependentUpon>开课查询.cs</DependentUpon>
+    </Compile>
+    <Compile Include="成绩查询系统DataSet.cs">
+      <DependentUpon>成绩查询系统DataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="成绩查询系统DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>成绩查询系统DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="管理员界面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="管理员界面.Designer.cs">
+      <DependentUpon>管理员界面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="用户界面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="用户界面.Designer.cs">
+      <DependentUpon>用户界面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="成绩查询系统.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="成绩查询系统.Designer.cs">
+      <DependentUpon>成绩查询系统.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="学生信息管理.resx">
+      <DependentUpon>学生信息管理.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="学生成绩管理.resx">
+      <DependentUpon>学生成绩管理.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="帮助.resx">
+      <DependentUpon>帮助.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="成绩查询.resx">
+      <DependentUpon>成绩查询.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="开课查询.resx">
+      <DependentUpon>开课查询.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="用户界面.resx">
+      <DependentUpon>用户界面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="成绩查询系统.resx">
+      <DependentUpon>成绩查询系统.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="管理员界面.resx">
+      <DependentUpon>管理员界面.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="成绩查询系统DataSet.xsc">
+      <DependentUpon>成绩查询系统DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="成绩查询系统DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>成绩查询系统DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="成绩查询系统DataSet.xss">
+      <DependentUpon>成绩查询系统DataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
